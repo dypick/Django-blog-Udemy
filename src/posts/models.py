@@ -8,9 +8,8 @@ class Post(models.Model):
 	timestamp = models.DateTimeField(auto_now = False, auto_now_add=True)
 
 
-	def __init__(self, arg):
-		super(Post,models.Model).__init__()
-		self.arg = arg
+	def __unicode__(self):
+		return self.title
 
 	def __str__(self):
 		return self.title

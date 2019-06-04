@@ -7,6 +7,24 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "src/djangoblog/settings.py",
+			"settings":
+			{
+				"buffer_size": 3188,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/posts/models.py",
+			"settings":
+			{
+				"buffer_size": 394,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -41,10 +59,13 @@
 	"expanded_folders":
 	[
 		"/C/Users/gexa4/dev/trydjango",
-		"/C/Users/gexa4/dev/trydjango/djangoblog"
+		"/C/Users/gexa4/dev/trydjango/src",
+		"/C/Users/gexa4/dev/trydjango/src/djangoblog"
 	],
 	"file_history":
 	[
+		"/C/Users/gexa4/dev/trydjango/src/djangoblog/urls.py",
+		"/C/Users/gexa4/dev/trydjango/src/djangoblog/wsgi.py"
 	],
 	"find":
 	{
@@ -79,8 +100,67 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "src/djangoblog/settings.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3188,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								861,
+								861
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 460.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/posts/models.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 394,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								87,
+								87
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
