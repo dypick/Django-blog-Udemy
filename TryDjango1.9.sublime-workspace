@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"in",
+				"instance"
+			],
+			[
+				"post_",
+				"post_detail"
+			],
+			[
+				"ge",
+				"get_object_or_404"
+			],
+			[
 				"post",
 				"post_delete"
 			],
@@ -24,56 +36,10 @@
 	"buffers":
 	[
 		{
-			"file": "src/posts/models.py",
+			"file": "src/crud.md",
 			"settings":
 			{
-				"buffer_size": 357,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/djangoblog/urls.py",
-			"settings":
-			{
-				"buffer_size": 875,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/posts/views.py",
-			"settings":
-			{
-				"buffer_size": 887,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/djangoblog/settings.py",
-			"settings":
-			{
-				"buffer_size": 3223,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/templates/index.html",
-			"settings":
-			{
-				"buffer_size": 271,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "src/posts/urls.py",
-			"settings":
-			{
-				"buffer_size": 349,
-				"encoding": "UTF-8",
+				"buffer_size": 0,
 				"line_ending": "Windows"
 			}
 		}
@@ -112,18 +78,21 @@
 	[
 		"/C/Users/gexa4/dev/trydjango",
 		"/C/Users/gexa4/dev/trydjango/src",
-		"/C/Users/gexa4/dev/trydjango/src/templates"
+		"/C/Users/gexa4/dev/trydjango/src/templates",
+		"/C/Users/gexa4/dev/flask-landing"
 	],
 	"file_history":
 	[
-		"/C/Users/gexa4/dev/trydjango/src/posts/urls.py",
-		"/C/Users/gexa4/dev/trydjango/src/posts/views.py",
+		"/C/Users/gexa4/dev/trydjango/src/posts/models.py",
 		"/C/Users/gexa4/dev/trydjango/src/djangoblog/urls.py",
+		"/C/Users/gexa4/dev/trydjango/src/posts/views.py",
+		"/C/Users/gexa4/dev/trydjango/src/templates/post_detail.html",
+		"/C/Users/gexa4/dev/trydjango/src/djangoblog/settings.py",
+		"/C/Users/gexa4/dev/trydjango/src/templates/index.html",
+		"/C/Users/gexa4/dev/trydjango/src/posts/urls.py",
 		"/C/Users/gexa4/OneDrive/Рабочий стол/поездатые поезда.txt",
 		"/C/Users/gexa4/dev/trydjango/src/posts/admin.py",
 		"/C/Users/gexa4/dev/trydjango/src/crud.md",
-		"/C/Users/gexa4/dev/trydjango/src/djangoblog/settings.py",
-		"/C/Users/gexa4/dev/trydjango/src/posts/models.py",
 		"/C/Users/gexa4/dev/trydjango/src/djangoblog/wsgi.py"
 	],
 	"find":
@@ -142,6 +111,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"obj",
 			"/$',"
 		],
 		"highlight": true,
@@ -150,6 +120,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"intance"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -160,179 +131,35 @@
 	"groups":
 	[
 		{
-			"selected": 4,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "src/posts/models.py",
-					"semi_transient": false,
+					"file": "src/crud.md",
+					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 357,
+						"buffer_size": 0,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								314,
-								314
+								0,
+								0
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Python/Python.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "src/djangoblog/urls.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 875,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								850,
-								871
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 108.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "src/posts/views.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 887,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								511,
-								511
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 108.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "src/djangoblog/settings.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3223,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1748,
-								1748
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 864.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "src/templates/index.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 271,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								255,
-								255
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "src/posts/urls.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 349,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								342,
-								342
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
 					"type": "text"
 				}
 			]
