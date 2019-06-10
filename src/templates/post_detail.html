@@ -1,6 +1,9 @@
-<!DOCTYPE html>
-<html>
+{% extends "base.html" %}
 
+
+{% block head_title %}
+{{ instance.title }} | {{ block.super }}
+{% endblock head_title %}
 
 
 <body>
@@ -14,6 +17,7 @@
 {% endif %}
 
 
+{% block content %}
 <h1>{{ title }}</h1>
 
 {{ intance.title }} <br/>
@@ -24,3 +28,4 @@
 
 </body>
 </html>
+{% endblock content %}
