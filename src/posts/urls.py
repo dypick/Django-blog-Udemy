@@ -9,11 +9,11 @@ from .views import (
 	post_delete,
 	)
 
-
 urlpatterns = [
 	url(r'^$', post_list, name='list'),
     url(r'^create/$', post_create),
-    url(r'^detail/(?P<id>\d+)/$', post_detail, name='detail'),
-    url(r'^update/$', post_update),
-    url(r'^delete(?P<id>\d+)/$', post_delete),
-   ]
+    url(r'^(?P<id>\d+)/$', post_detail, name='detail'),
+    url(r'^(?P<id>\d+)/edit/$', post_update, name='update'),
+    url(r'^(?P<id>\d+)/delete/$', post_delete),
+    #url(r'^posts/$', "<appname>.views.<function_name>"),
+]
